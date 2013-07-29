@@ -1,0 +1,9 @@
+# reload command for reloading preferences
+alias reload='. ~/.bash_profile'
+
+alias dt='cd ~/Desktop'
+alias projects='cd ~/Projects'
+
+alias sdkdir='cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs'
+
+alias iosignore="curl http://alpha.afrogleap.com/ios_ignore > .gitignore"

@@ -1,0 +1,10 @@
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+export PATH="${PATH}:/Applications/Xcode.app/Contents/Developer/usr/bin"
+
+# Setting PATH for Python 2.7
+export PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}"
+
+
+ 
+

@@ -1,1 +1,0 @@
-/Users/nielsdehoog/.dotfiles/bash/bash
