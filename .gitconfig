@@ -1,0 +1,16 @@
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  amend = commit --amend -C HEAD
+  br = branch
+  pl = pull
+[user]
+	name = Niels de Hoog
+	email = njdehoog@gmail.com
+[core]
+	excludesfile = ~/.gitignore_global
+[merge]
+	tool = opendiff
+[mergetool]
+	keepBackup = false

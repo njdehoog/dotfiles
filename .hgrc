@@ -1,0 +1,6 @@
+[ui]
+username = Niels de Hoog <njdehoog@gmail.com>
+ignore = ~/.hgignore
+
+[alias]
+show = log -pr tip
