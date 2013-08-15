@@ -28,3 +28,7 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/.$file ~/.$file
 done
+
+
+# Run script to set OS X defaults
+sh osx/set-defaults.sh
