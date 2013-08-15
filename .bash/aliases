@@ -3,5 +3,6 @@ alias reload='. ~/.bash_profile'
 
 alias dt='cd ~/Desktop'
 alias projects='cd ~/Projects'
+alias p='cd ~/Projects'
 
 alias sdkdir='cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs'
