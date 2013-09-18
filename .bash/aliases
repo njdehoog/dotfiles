@@ -6,3 +6,4 @@ alias projects='cd ~/Projects'
 alias p='cd ~/Projects'
 
 alias sdkdir='cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs'
+alias simdir='cd ~/Library/Application\ Support/iPhone\ Simulator/6.1/Applications'
