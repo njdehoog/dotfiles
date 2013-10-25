@@ -1,9 +1,12 @@
-# reload command for reloading preferences
+# Reload command for reloading preferences
 alias reload='. ~/.bash_profile'
 
+# File navigation
 alias dt='cd ~/Desktop'
 alias projects='cd ~/Projects'
 alias p='cd ~/Projects'
 
+# Xcode
 alias sdkdir='cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs'
 alias simdir='cd ~/Library/Application\ Support/iPhone\ Simulator/6.1/Applications'
+alias iosignore='curl https://raw.github.com/github/gitignore/master/Objective-C.gitignore > .gitignore'
