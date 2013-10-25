@@ -10,6 +10,7 @@
   email = njdehoog@gmail.com
 [core]
   excludesfile = ~/.gitignore_global
+	editor = vim
 [merge]
   tool = opendiff
 [mergetool]
