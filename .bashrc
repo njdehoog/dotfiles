@@ -8,6 +8,14 @@ if [ -f ~/.localrc ]; then
   source ~/.localrc
 fi
 
-
+### AUTOMATICALLY GENERATED ###
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+## Add PostgreSQL
+export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
+
+#### END AUTOMATICALLY GENERATED ###
