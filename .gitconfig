@@ -17,3 +17,7 @@
   keepBackup = false
 [push]
 	default = simple
+[help]
+	autocorrect = 1
+[color]
+	ui = 1
