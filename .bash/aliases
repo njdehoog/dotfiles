@@ -6,7 +6,10 @@ alias dt='cd ~/Desktop'
 alias projects='cd ~/Projects'
 alias p='cd ~/Projects'
 
-# Xcode
+# Development
 alias sdkdir='cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs'
-alias simdir='cd ~/Library/Application\ Support/iPhone\ Simulator/6.1/Applications'
-alias iosignore='curl https://raw.github.com/github/gitignore/master/Objective-C.gitignore > .gitignore'
+alias iosignore='curl https://gist.githubusercontent.com/njdehoog/e2a3764f31a8e769399f/raw/145f31641accad10007140221ee67c8882808bd0/.gitignore > .gitignore'
+alias railsignore='curl https://raw.github.com/github/gitignore/master/Rails.gitignore > .gitignore'
+alias sketchpluginsdir='cd ~/Library/Containers/com.bohemiancoding.sketch/Data/Library/Application\ Support/sketch/Plugins'
+alias updateservices='/System/Library/CoreServices/pbs -dump_pboard'
+alias xcodepluginsdir='cd ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins'
