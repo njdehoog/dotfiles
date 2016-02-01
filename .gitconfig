@@ -5,6 +5,7 @@
   amend = commit --amend -C HEAD
   br = branch
   pl = pull
+  numcommits = rev-list HEAD --count
 [user]
   name = Niels de Hoog
   email = njdehoog@gmail.com
@@ -18,6 +19,10 @@
 [push]
 	default = simple
 [help]
-	autocorrect = 1
+	autocorrect = 0
 [color]
 	ui = 1
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
